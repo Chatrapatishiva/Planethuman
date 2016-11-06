@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "836688513914",
+    "firebase_url": "https://human-planet-4a5a5.firebaseio.com",
+    "project_id": "human-planet-4a5a5",
+    "storage_bucket": "human-planet-4a5a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836688513914:android:c5e6a3182806849d",
+        "android_client_info": {
+          "package_name": "bootcamplearning.humanplanet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836688513914-hh659utl23khcldu3ht029jccvsr2j25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5cPkNdlX9IxVrvJU2LrrcoR7A1cNiG6g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

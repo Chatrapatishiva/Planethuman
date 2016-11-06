@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/mainimage"
+        android:src="@drawable/profile"
+        android:bottomRightRadius="20dp"
+        android:bottomLeftRadius="20dp"
+        android:topLeftRadius="20dp"
+        android:topRightRadius="20dp"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/maintitle"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_toRightOf="@+id/mainimage"
+        android:layout_toEndOf="@+id/mainimage" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Location"
+    android:id="@+id/mainlocation"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/maintitle"
+        android:layout_toRightOf="@+id/mainimage"
+        android:layout_toEndOf="@+id/mainimage" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Date"
+    android:id="@+id/maindate"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/mainlocation"
+        android:layout_toRightOf="@+id/mainimage"
+        android:layout_toEndOf="@+id/mainimage" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="By"
+        android:textStyle="italic"
+        android:textColor="#F493"
+    android:id="@+id/mainby"
+        android:layout_alignBottom="@+id/mainimage"
+        android:layout_toRightOf="@+id/mainimage"
+        android:layout_toEndOf="@+id/mainimage" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/next"
+        android:layout_alignBottom="@+id/maindate"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

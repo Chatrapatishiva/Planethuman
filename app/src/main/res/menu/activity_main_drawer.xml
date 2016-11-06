@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/myprofile"
+            android:icon="@drawable/profile"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/mycontribution"
+            android:icon="@drawable/mycontri"
+            android:title="My Contribution" />
+
+    </group>
+    <item android:title="Contribute">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/swachbharath"
+                android:icon="@drawable/contri"
+                android:title=" Swachh Bharat" />
+            </group>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/planttree"
+                android:icon="@drawable/contri"
+                android:title="Plant a Tree" />
+            </group><group android:checkableBehavior="single">
+            <item
+                android:id="@+id/supportanimal"
+                android:icon="@drawable/contri"
+                android:title="Support animal cause" />
+            </group><group android:checkableBehavior="single">
+            <item
+                android:id="@+id/childedu"
+                android:icon="@drawable/contri"
+                android:title="Support Child Education" /></group>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/clothandfood"
+                android:icon="@drawable/contri"
+                android:title="Donate clothes food" />
+            </group><group android:checkableBehavior="single">
+            <item
+                android:id="@+id/orphsupport"
+                android:icon="@drawable/contri"
+                android:title="Orphanage support " />
+            </group><group android:checkableBehavior="single">
+            <item
+                android:id="@+id/supportgirl"
+                android:icon="@drawable/contri"
+                android:title="Support for the girl child" /></group>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/supportschild"
+                android:icon="@drawable/contri"
+                android:title="Support for street children" />
+            </group><group android:checkableBehavior="single">
+            <item
+                android:id="@+id/supportedulit"
+                android:icon="@drawable/contri"
+                android:title="Support for education literacy" />
+            </group><group android:checkableBehavior="single">
+            <item
+                android:id="@+id/supportplanet"
+                android:icon="@drawable/contri"
+                android:title="Support for greener planet" />
+            </group><group android:checkableBehavior="single">
+            <item
+                android:id="@+id/yourskills"
+                android:icon="@drawable/contri"
+                android:title="Contribute your skills" />
+            </group><group android:checkableBehavior="single">
+            <item
+                android:id="@+id/supportngo"
+                android:icon="@drawable/contri"
+                android:title="Support an NGO" /></group>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/blooddonate"
+                android:icon="@drawable/contri"
+                android:title="Blood donation  Health drives " />
+            </group><group android:checkableBehavior="single">
+            <item
+                android:id="@+id/socialimapact"
+                android:icon="@drawable/contri"
+                android:title="Form social collaborations" />
+            </group>
+
+        </menu>
+    </item>
+
+</menu>
